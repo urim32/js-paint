@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>js-paint</title>
+    <link rel="stylesheet" href="./css/my-syle.css">
+</head>
+<body>
+    <div class="container">
+        <div id="canvas"></div>
+        <div class="footer-canvas">
+            <div id="colors-btn">
+                <button id="red" onclick="changeColor('red');"></button>
+                <button id="blue" onclick="changeColor('blue');"></button>
+                <button id="green" onclick="changeColor('green');"></button>
+                <button id="yellow" onclick="changeColor('yellow');"></button>
+                <button id="purple" onclick="changeColor('purple');"></button>
+            </div>
+            <div class="range">Size: 1<input type="range" id="myrange" min="1" max="100">100</div>
+            <div class="features">
+                    <button id="reset">clear</button>
+                    <button id="eraser">eraser</button> 
+            </div>
+        </div>
+    
+    </div>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
